@@ -1,0 +1,34 @@
+#pages {
+	text-align: right;
+	font-family: Poppins, PT Sans, sans-serif;
+	padding: 10px;
+	border: 1px solid powderblue;
+}
+
+a+a {
+	margin-left: 15px;
+}
+
+#center {
+	margin: 13%;
+	border: 1px solid green;
+}
+
+#title{
+	text-align: center;
+	padding: 20px;
+	font-family: Poppins, PT Sans, sans-serif;
+	font-size: 100px;
+	border: 1px solid darkred;
+}
+
+#search_box {
+	text-align: center;
+	border: 1px solid black;
+}
+
+#bar {
+	height: 35px;
+	width: 45%;
+	border-radius: 50px;
+}
