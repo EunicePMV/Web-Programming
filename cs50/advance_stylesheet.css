@@ -1,0 +1,50 @@
+#pages {
+	text-align: left;
+	font-family: Poppins, PT Sans, sans-serif;
+	font-size: 20px;
+	border: 1px solid blue;
+}
+
+#title {
+	padding: 45px;
+	padding-bottom: 0px;
+	font-family: Poppins, PT Sans, sans-serif;
+	font-size: 30px;
+	border: 1px solid green;
+}
+
+#form {
+	margin-top: 35px;
+	display: grid;
+	grid-template-columns: 13% 35% auto;
+	grid-template-rows: 50px 50px 50px 50px 50px;
+	border: 1px solid darkred;
+}
+
+#find-pages {
+	font-family: Poppins, PT Sans, sans-serif;
+	padding-left: 45px;
+	border: 1px solid black;
+}
+
+label {
+	padding-left: 45px;
+}
+
+small {
+	font-family: Lato;
+}
+
+#to-do-this {
+	font-size: 20px;
+	border: 1px solid red;
+}
+
+input {
+	height: 45%;
+	width: 90%;
+}
+
+.text-box {
+	text-align: center;
+}

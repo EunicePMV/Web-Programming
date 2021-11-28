@@ -3,13 +3,63 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="advance_stylesheet.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
 	<title>Advance Search</title>
 </head>
 <body>
-	<!-- pages -->
-	<a href="g_search.html">Google Search</a>
-	<a href="image_s.html">Image Search</a>
-
-	<h1>Advance Search</h1>
+	<div id="pages">
+		<a href="g_search.html">Google Search</a>
+	</div>
+	<div id="title">
+		Advance Search
+	</div>
+	<hr>
+	<form id="form">
+		<div id="find-pages">
+			<span>Find pages with...</span>
+		</div>
+		<div id="mid-box">&nbsp;</div>
+		<div id="to-do-this">
+			<small><b>To do this in a search box</b></small>
+		</div>
+		<div id="all-these-word">
+			<label for="all-these-word">all these words:</label>
+		</div>	
+		<div class="text-box">
+			<input type="text" name="all-these-word">
+		</div>
+		<div>
+			<small>Type the important words:  <b>tricolor rat terrier</b></small>
+		</div>
+		<div>
+			<label for="exact-word">this exact word or phrase:</label>
+		</div>
+		<div class="text-box">
+			<input type="text" name="exact-word">
+		</div>
+		<div>
+			<small>Put exact words in quotes:  <b>"rat terrier"</b></small>
+		</div>
+		<div>
+			<label for="any-word">any of these words:</label>
+		</div>
+		<div class="text-box">
+			<input type="text" name="any-word">
+		</div>
+		<div>
+			<small>Type <b>OR</b> between all the words you want:  <b>miniature OR standard</b></small>
+		</div>
+		<div>
+			<label for="none-words">none of these words:</label>
+		</div>
+		<div class="text-box">
+			<input type="text" name="none-words">
+		</div>
+		<div>
+			<small>Put a minus sign just before words you don't want:<br>
+				<b>-rodent, -"Jack Russell"</b></small>
+		</div>
+	</form>
 </body>
 </html>
