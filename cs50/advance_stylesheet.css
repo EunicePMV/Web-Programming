@@ -5,11 +5,16 @@
 	border: 1px solid blue;
 }
 
+body {
+	font-family: Arial, sans-serif;
+}
+
 #title {
 	padding: 45px;
 	padding-bottom: 0px;
-	font-family: Poppins, PT Sans, sans-serif;
+	font-family: inherit;
 	font-size: 30px;
+	color: red;
 	border: 1px solid green;
 }
 
@@ -17,34 +22,43 @@
 	margin-top: 35px;
 	display: grid;
 	grid-template-columns: 13% 35% auto;
-	grid-template-rows: 50px 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px;
 	border: 1px solid darkred;
 }
 
 #find-pages {
-	font-family: Poppins, PT Sans, sans-serif;
+	font-family: inherit;
 	padding-left: 45px;
 	border: 1px solid black;
 }
 
 label {
+	font-family: inherit;
 	padding-left: 45px;
 }
 
-small {
-	font-family: Lato;
-}
-
 #to-do-this {
-	font-size: 20px;
+	font-size: 13px;
+	font-weight: bold;
 	border: 1px solid red;
 }
 
-input {
+span {
+	font-family: monospace;
+	color: #666;
+}
+
+#text-box {
 	height: 45%;
 	width: 90%;
 }
 
 .text-box {
 	text-align: center;
+}
+
+#submit {
+	text-align: right;
+	height: 30px;
+	min-width: 120px;
 }

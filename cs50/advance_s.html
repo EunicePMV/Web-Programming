@@ -15,51 +15,57 @@
 		Advance Search
 	</div>
 	<hr>
-	<form id="form">
+
+	<form action="https://google.com/search" method="GET" target="_blank" id="form">
 		<div id="find-pages">
-			<span>Find pages with...</span>
+			Find pages with...
 		</div>
 		<div id="mid-box">&nbsp;</div>
 		<div id="to-do-this">
-			<small><b>To do this in a search box</b></small>
+			To do this in a search box
 		</div>
 		<div id="all-these-word">
-			<label for="all-these-word">all these words:</label>
+			<label for="as_q"><small>all these words:</small></label>
 		</div>	
 		<div class="text-box">
-			<input type="text" name="all-these-word">
+			<input type="text" name="as_q" id="text-box">
 		</div>
 		<div>
-			<small>Type the important words:  <b>tricolor rat terrier</b></small>
+			<small>Type the important words:  <span>tricolor rat terrier</span></small>
 		</div>
 		<div>
-			<label for="exact-word">this exact word or phrase:</label>
+			<label for="as_epq"><small>this exact word or phrase:</small></label>
 		</div>
 		<div class="text-box">
-			<input type="text" name="exact-word">
+			<input type="text" name="as_epq" id="text-box">
 		</div>
 		<div>
-			<small>Put exact words in quotes:  <b>"rat terrier"</b></small>
+			<small>Put exact words in quotes:  <span>"rat terrier"</span></small>
 		</div>
 		<div>
-			<label for="any-word">any of these words:</label>
+			<label for="as_oq"><small>any of these words:</small></label>
 		</div>
 		<div class="text-box">
-			<input type="text" name="any-word">
+			<input type="text" name="as_oq" id="text-box">
 		</div>
 		<div>
-			<small>Type <b>OR</b> between all the words you want:  <b>miniature OR standard</b></small>
+			<small>Type <span>OR</span> between all the words you want:  <span>miniature OR standard</span></small>
 		</div>
 		<div>
-			<label for="none-words">none of these words:</label>
+			<label for="as_eq"><small>none of these words:</small></label>
 		</div>
 		<div class="text-box">
-			<input type="text" name="none-words">
+			<input type="text" name="as_eq" id="text-box">
 		</div>
 		<div>
 			<small>Put a minus sign just before words you don't want:<br>
-				<b>-rodent, -"Jack Russell"</b></small>
+				<span>-rodent, -"Jack Russell"</span></small>
 		</div>
+		<div>&nbsp;</div>
+		<div id="submit">
+			<input type="submit" form="form" value="Advanced Search">
+		</div>
+		<div>&nbsp;</div>
 	</form>
 </body>
 </html>
